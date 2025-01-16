@@ -12,7 +12,14 @@
 
             if (nota_final >= 70)
             {
-                resultado = "Aprovado";
+                if (nota_final >= 95)
+                {
+                    resultado = "Aprovado com louvor";
+                }
+                else
+                {
+                    resultado = "Aprovado";
+                }
             }
             else if (nota_final >= 45)
             {
